@@ -36,7 +36,7 @@ sudo apt update && sudo apt install nmap
 Cloná el repositorio o descargá el script:
 
 ```bash
-git clone https://github.com/erosennin420/ghostmap.git
+git clone https://github.com/luisotero00/ghostmap.git
 cd ghostmap
 python3 ghostmap.py <IP o dominio objetivo>
 ```
