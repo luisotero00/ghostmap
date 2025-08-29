@@ -37,14 +37,14 @@ Cloná el repositorio o descargá el script:
 
 ```bash
 git clone https://github.com/luisotero00/ghostmap.git
-cd ghostmap
-python3 ghostmap.py <IP o dominio objetivo>
+cd ghotmap
+python3 ghotmap.py <IP o dominio objetivo>
 ```
 
 Ejemplo:
 
 ```bash
-python3 ghostmap.py 192.168.1.10
+python3 ghotmap.py 192.168.1.10
 ```
 
 ---
@@ -54,19 +54,19 @@ python3 ghostmap.py 192.168.1.10
 Hacé el script ejecutable:
 
 ```bash
-chmod +x ghostmap.py
+chmod +x ghotmap.py
 ```
 
 Movelo a una ruta del sistema:
 
 ```bash
-sudo mv ghostmap.py /usr/local/bin/ghostmap
+sudo mv ghotmap.py /usr/local/bin/ghostmap
 ```
 
 Ahora podés usarlo desde cualquier lugar con:
 
 ```bash
-ghostmap 192.168.1.10
+ghotmap 192.168.1.10
 ```
 
 ---
